@@ -1,0 +1,11 @@
+body{
+	background: #202020;
+	color: white;
+}
+
+@media (max-width: 610px){
+
+	.about_section{
+		font-size: 12px;
+	}
+}

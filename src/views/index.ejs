@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title><%= title %></title>
+	<%- include('partials/maincss') %>
+</head>
+<body>
+
+	<%- include('partials/navigation') %>
+
+	<header class="container vh-100 d-flex justify-content-center align-items-center">
+		<div class="d-flex flex-column justify-content-center align-items-center">
+				<img src="/img/h20-degrade.png" class="w-75">
+				<h1 class="display-1 my-5 text-uppercase fw-bold"> <%= x %>  </h1>
+			<a href="/about" class="btn btn-primary w-25">About</a>
+		</div>
+	</header>
+
+	<%- include('partials/footer') %>
+
+</body>
+</html>
